@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 /*Requests*/
 //Essa função diz que estamos utilizando o método get na home page (/)
 app.get('/', function(req, res){
-	res.send('Hello World3!')
+	res.send('Hello World4!')
 });
 
 //GetThemeId - Pega o ID do tema gerado pelo front e cria a estrutura de pastas
